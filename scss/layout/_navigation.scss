@@ -1,0 +1,13 @@
+nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+
+    @media(min-width:768px) {
+        display: inline-block;
+    }
+}
+.link {
+    color: $color-text-tertiary;
+    text-decoration: none;
+}

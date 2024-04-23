@@ -1,0 +1,48 @@
+body {
+    background-color: $color-primary;
+}
+section {
+    padding: 30px;
+    width: 100%;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section img {
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
+}
+
+.plancanje, .naty {
+    background-color: $color-tertiary;
+    border-radius: 10%;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+}
+
+.productos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: center;
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    @media (min-width: 1200px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.ver-catalogo {
+    color: $color-text-tertiary;
+    font-size: x-large;
+    border-radius: 5px;
+    text-decoration: none;
+}

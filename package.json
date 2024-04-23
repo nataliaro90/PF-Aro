@@ -1,0 +1,19 @@
+{
+  "name": "preentrega3-aro",
+  "version": "1.0.0",
+  "description": "incluyendo sass a mi proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliaro90/3raPreentrega-Aro.git"
+  },
+  "author": "Natali Aro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliaro90/3raPreentrega-Aro/issues"
+  },
+  "homepage": "https://github.com/nataliaro90/3raPreentrega-Aro#readme"
+}
